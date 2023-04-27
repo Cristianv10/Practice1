@@ -23,15 +23,10 @@
         <tbody>
           <% events.each do |event| %>
           <tr>
-            <td><%= link_to event.id, event_path(event) %></td>
-            <td>
-            <img class="evento-imagen" src="https://imagenes.elpais.com/resizer/vUXumyOMe0Anzm4GRtS6MPFeg7U=/1200x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/RPTDZ275ODEKBUVZDEFIVRBTNA.jpg" alt="Camacaro">
-            <div class="event-title"><%= event.title %></div>
-            <div class="event-date"><%= event.start_datetime.strftime("%A, %B %d %Y AT %I:%M %p %Z") %></div>
-          </td>
-            <td><%= event.start_datetime %></td>
+            <td> 1 </td>
+            <td>2</td>
+            <td>3</td>
           </tr>
-          <% end %>
         </tbody>
       </table>
 
